@@ -1,4 +1,5 @@
 判断是否是同构数
+
 Private sub form _click()
 
 dim i as integer ,n as long
