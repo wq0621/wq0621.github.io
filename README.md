@@ -1,21 +1,46 @@
-判断是否是同构数
+VISUAL BASIC (VB) 编程
 
-Private sub form _click()
+输出 1 至 9999 的同构数。
 
-dim i as integer ,n as long
+Private Sub Form _Click()
 
-for i= 1 to 9999
+Dim i as Integer , N as Long
 
-n=i^2
+For i = 1 to 9999
 
-if (n-i) mod 10 ^ (len(trim(i)))= 0 then 
+N = i ^ 2
 
-print i;
+If (N-i) Mod 10 ^ (Len(Trim(i))) = 0 Then 
 
-end if
+Print i;
 
-next i
+End if
 
-print
+Next i
 
-end sub
+Print
+
+End sub
+
+
+要求输入一个数可以判断是否是同构数
+
+Private Sub Form_Click()
+
+Dim i = Inputbox (" 请输入一个数 " ）
+
+N = i ^ 2
+
+If ( N - i ) mod 10 ^ ( Len (Trim(i))) = 0 Then
+
+Print "i" ; "是同构数"
+
+Else
+
+Print "i" ; "不是同构数"
+
+End If
+
+Print
+
+End Sub
