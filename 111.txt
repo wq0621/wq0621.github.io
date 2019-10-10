@@ -1,4 +1,4 @@
-ÅÐ¶ÏÍ¬¹¹Êý
+
 Private sub form _click()
 dim i as integer ,n as long
 for i= 1 to 9999
